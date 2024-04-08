@@ -1,0 +1,67 @@
+body {
+  background-color: #eeeeee;
+}
+
+#message {
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 30%;
+  max-width: 30rem;
+  text-align: center;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+}
+
+.fail {
+  background-color: brown;
+  color: white;
+}
+
+#login-screen form {
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: white;
+  width: 30%;
+  max-width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  font-size: 1.6rem;
+  flex-direction: column;
+}
+
+#login-screen form .form-item {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 1rem;
+  font-size: 1.6rem;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  border-radius: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #027bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #027bff;
+}
